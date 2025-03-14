@@ -2,19 +2,7 @@
 body {
     background-color: rgba(82, 177, 211, 0.427);
 }
-p {
-    color: rgb(101, 22, 22);
-}
-h2 {
-    color: rgb(101, 22, 22);
-}
-h1 {
-    color: rgb(101, 22, 22);
-}
-h3 {
-    color: rgb(101, 22, 22);
-}
-B {
+b {
     color: rgb(101, 22, 22);
 }
 
