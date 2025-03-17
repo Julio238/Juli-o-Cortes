@@ -1,3 +1,16 @@
-body {
+header {
     background-color: rgba(82, 177, 211, 0.427);
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(22, 26, 101);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
