@@ -82,3 +82,40 @@ footer img{
     font-size: 15px;
     margin: 20px 0 0;
 }
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+.checkbox {
+ margin: 20px 0 ;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgba(226, 219, 142, 0.599);
+    color: rgb(0, 0, 0) ;
+    font-weight: bold;
+    font-size: 18px;
+    border: none ;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: rgba(223, 215, 128, 0.599);
+    transform: scale(1.2);
+}

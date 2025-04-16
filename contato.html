@@ -28,15 +28,53 @@
     <main>
         <form>
             <label for="nomesobrenome">Nome Sobrenome </label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao">  
 
             <label for="email">Email </label>
-            <input type="text" id="email">
+            <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio"> 
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="telefone" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx"> 
 
-            <input type="submit" value="Enviar formulário">
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <div>
+
+                <p>Como Prefere o Nosso Contato? </p>
+
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email"i id="radio-email">
+                    Email
+                </label>
+
+                <label for="radio-Telefone">
+                    <input type="radio" name="contato" value="Telefone"i id="radio-Telefone">
+                    Telefone
+                </label>
+
+                <label for="radio-Whatsapp">
+                    <input type="radio" name="contato" value="Whatsapp"i id="radio-Whatsapp" checked>
+                    Whatsapp
+                </label>
+
+            </div>
+
+            <div>
+                <p>Qual Horário Prefere ser Atendido?</p>
+                <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>    
+                </select>   
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                Gostaria de Receber Nossas Novidades por Email?
+            </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
         </form>
     </main>
     <footer>
